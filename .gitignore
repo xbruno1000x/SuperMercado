@@ -32,6 +32,7 @@ yarn.lock
 /storage/framework/sessions/*
 /storage/framework/views/*
 /storage/logs/*
+/storage/
 /public/storage
 /.phpunit.result.cache
 
