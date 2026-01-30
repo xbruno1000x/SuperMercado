@@ -1,0 +1,47 @@
+[28-Jan-2026 15:10:29 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Method Illuminate\Foundation\Application::configure does not exist. in C:\Users\faria\Super Mercado\backend\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php:86
+Stack trace:
+#0 C:\Users\faria\Super Mercado\backend\bootstrap\app.php(7): Illuminate\Foundation\Application::__callStatic('configure', Array, basePath: 'C:\\Users\\faria\\...')
+#1 C:\Users\faria\Super Mercado\backend\artisan(8): require_once('C:\\Users\\faria\\...')
+#2 {main}
+  thrown in C:\Users\faria\Super Mercado\backend\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php on line 86
+[28-Jan-2026 15:10:30 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Method Illuminate\Foundation\Application::configure does not exist. in C:\Users\faria\Super Mercado\backend\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php:86
+Stack trace:
+#0 C:\Users\faria\Super Mercado\backend\bootstrap\app.php(7): Illuminate\Foundation\Application::__callStatic('configure', Array, basePath: 'C:\\Users\\faria\\...')
+#1 C:\Users\faria\Super Mercado\backend\artisan(8): require_once('C:\\Users\\faria\\...')
+#2 {main}
+  thrown in C:\Users\faria\Super Mercado\backend\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php on line 86
+[28-Jan-2026 15:10:30 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Method Illuminate\Foundation\Application::configure does not exist. in C:\Users\faria\Super Mercado\backend\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php:86
+Stack trace:
+#0 C:\Users\faria\Super Mercado\backend\bootstrap\app.php(7): Illuminate\Foundation\Application::__callStatic('configure', Array, basePath: 'C:\\Users\\faria\\...')
+#1 C:\Users\faria\Super Mercado\backend\artisan(8): require_once('C:\\Users\\faria\\...')
+#2 {main}
+  thrown in C:\Users\faria\Super Mercado\backend\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php on line 86
+[28-Jan-2026 15:10:56 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Method Illuminate\Foundation\Application::configure does not exist. in C:\Users\faria\Super Mercado\backend\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php:86
+Stack trace:
+#0 C:\Users\faria\Super Mercado\backend\bootstrap\app.php(7): Illuminate\Foundation\Application::__callStatic('configure', Array, basePath: 'C:\\Users\\faria\\...')
+#1 C:\Users\faria\Super Mercado\backend\artisan(8): require_once('C:\\Users\\faria\\...')
+#2 {main}
+  thrown in C:\Users\faria\Super Mercado\backend\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php on line 86
+[28-Jan-2026 15:10:57 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Method Illuminate\Foundation\Application::configure does not exist. in C:\Users\faria\Super Mercado\backend\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php:86
+Stack trace:
+#0 C:\Users\faria\Super Mercado\backend\bootstrap\app.php(7): Illuminate\Foundation\Application::__callStatic('configure', Array, basePath: 'C:\\Users\\faria\\...')
+#1 C:\Users\faria\Super Mercado\backend\artisan(8): require_once('C:\\Users\\faria\\...')
+#2 {main}
+  thrown in C:\Users\faria\Super Mercado\backend\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php on line 86
+[28-Jan-2026 15:10:57 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Method Illuminate\Foundation\Application::configure does not exist. in C:\Users\faria\Super Mercado\backend\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php:86
+Stack trace:
+#0 C:\Users\faria\Super Mercado\backend\bootstrap\app.php(7): Illuminate\Foundation\Application::__callStatic('configure', Array, basePath: 'C:\\Users\\faria\\...')
+#1 C:\Users\faria\Super Mercado\backend\artisan(8): require_once('C:\\Users\\faria\\...')
+#2 {main}
+  thrown in C:\Users\faria\Super Mercado\backend\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php on line 86
+[28-Jan-2026 15:14:37 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Method Illuminate\Foundation\Application::configure does not exist. in C:\Users\faria\Super Mercado\backend\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php:86
+Stack trace:
+#0 C:\Users\faria\Super Mercado\backend\bootstrap\app.php(7): Illuminate\Foundation\Application::__callStatic('configure', Array, basePath: 'C:\\Users\\faria\\...')
+#1 C:\Users\faria\Super Mercado\backend\artisan(8): require_once('C:\\Users\\faria\\...')
+#2 {main}
+  thrown in C:\Users\faria\Super Mercado\backend\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php on line 86
+[28-Jan-2026 15:15:36 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Method Illuminate\Foundation\Application::handleCommand does not exist. in C:\Users\faria\Super Mercado\backend\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php:112
+Stack trace:
+#0 C:\Users\faria\Super Mercado\backend\artisan(9): Illuminate\Foundation\Application->__call('handleCommand', Array)
+#1 {main}
+  thrown in C:\Users\faria\Super Mercado\backend\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php on line 112

@@ -1,0 +1,189 @@
+.enderecos-page {
+  padding-bottom: 3rem;
+}
+
+.enderecos-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.endereco-form {
+  background-color: var(--surface);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.endereco-form h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-row .input-group {
+  flex: 1;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.checkbox-label input {
+  width: auto;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.enderecos-lista {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.endereco-card {
+  background-color: var(--surface);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+.endereco-card.principal {
+  border: 2px solid var(--primary);
+}
+
+.principal-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #f5e6e8;
+  color: var(--primary);
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.endereco-linha {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.endereco-linha-2 {
+  color: var(--text-light);
+}
+
+.endereco-cep {
+  color: var(--text-light);
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.endereco-acoes {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.endereco-acoes button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  background: none;
+  color: var(--text-light);
+  font-size: 0.875rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+}
+
+.endereco-acoes button:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.endereco-acoes button.btn-danger:hover {
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
+@media (max-width: 768px) {
+  .enderecos-lista {
+    grid-template-columns: 1fr;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+/* CEP Input Styles */
+.cep-input-group {
+  max-width: 250px;
+}
+
+.cep-input-wrapper {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.cep-input-wrapper input {
+  flex: 1;
+}
+
+.btn-buscar-cep {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn-buscar-cep:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.btn-buscar-cep:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.cep-hint {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.form-hint {
+  background: #e3f2fd;
+  color: #1565c0;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}

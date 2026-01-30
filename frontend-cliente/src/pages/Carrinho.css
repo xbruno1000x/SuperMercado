@@ -1,0 +1,301 @@
+.carrinho-page {
+  padding-bottom: 3rem;
+}
+
+.carrinho-vazio {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.carrinho-vazio svg {
+  font-size: 5rem;
+  color: var(--text-light);
+  opacity: 0.5;
+  margin-bottom: 1.5rem;
+}
+
+.carrinho-vazio h2 {
+  margin-bottom: 0.5rem;
+}
+
+.carrinho-vazio p {
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+}
+
+.carrinho-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.limpar-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  color: var(--danger);
+  font-weight: 500;
+}
+
+.limpar-btn:hover {
+  text-decoration: underline;
+}
+
+.carrinho-content {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 2rem;
+  align-items: start;
+}
+
+.carrinho-itens {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.carrinho-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--surface);
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.item-imagem {
+  width: 80px;
+  height: 80px;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  background-color: var(--background);
+  flex-shrink: 0;
+}
+
+.item-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary);
+  background-color: #f5e6e8;
+}
+
+.item-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.item-info h3 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item-preco {
+  color: var(--text-light);
+  font-size: 0.875rem;
+}
+
+.item-quantidade {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--background);
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+}
+
+.item-quantidade button {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.375rem;
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-quantidade button:hover:not(:disabled) {
+  background-color: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.item-quantidade button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.item-quantidade span {
+  min-width: 2rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.item-subtotal {
+  min-width: 100px;
+  text-align: right;
+}
+
+.item-subtotal p {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 1.125rem;
+}
+
+.item-substituicao {
+  min-width: 150px;
+}
+
+.substituicao-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-size: 0.75rem;
+  color: var(--text-light);
+}
+
+.substituicao-toggle input {
+  display: none;
+}
+
+.toggle-slider {
+  position: relative;
+  width: 36px;
+  height: 20px;
+  background-color: var(--border);
+  border-radius: 10px;
+  transition: background-color 0.2s;
+  flex-shrink: 0;
+}
+
+.toggle-slider::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+
+.substituicao-toggle input:checked + .toggle-slider {
+  background-color: var(--primary);
+}
+
+.substituicao-toggle input:checked + .toggle-slider::after {
+  transform: translateX(16px);
+}
+
+.toggle-label {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.item-remover {
+  background: none;
+  color: var(--text-light);
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.item-remover:hover {
+  color: var(--danger);
+  background-color: #fee2e2;
+}
+
+.resumo-card {
+  background-color: var(--surface);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 80px;
+}
+
+.resumo-card h3 {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+}
+
+.resumo-linha {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.frete-info {
+  color: var(--text-light);
+  font-size: 0.875rem;
+}
+
+.resumo-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.continuar-comprando {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.continuar-comprando:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .carrinho-content {
+    grid-template-columns: 1fr;
+  }
+
+  .carrinho-item {
+    flex-wrap: wrap;
+  }
+
+  .item-info {
+    flex: 1 1 calc(100% - 96px);
+  }
+
+  .item-quantidade {
+    order: 3;
+  }
+
+  .item-subtotal {
+    order: 4;
+    flex: 1;
+  }
+
+  .item-remover {
+    order: 5;
+  }
+}
